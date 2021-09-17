@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+button {
+    position: relative;
+    border: none;
+    width: 50px;
+    height: 50px;
+    background: #091921;
+    line-height: 45px;
+    text-align: center;
+    align-items: center;
+    margin: 8px;
+    color: #cecbcb;
+    font-size: 18px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: -1px -1px 3px rgba(255,255,255,0.1),
+                2px 2px 6px rgba(0,0,0,0.8);
+}
+
+button:hover {
+    box-shadow: -1px -1px 3px rgba(255,255,255,0.1),
+                2px 2px 6px rgba(0,0,0,0.8),
+                inset -2px -2px 10px rgba(255,255,255,0.05
+                ),
+                inset 2px 2px 10px rgba(0,0,0,0.5);
+ }
+
+button:checked, button:hover
+{
+   color: #00fff1;
+   box-shadow: inset -1px -1px 3px rgba(255,255,255,0.1),
+               inset 2px 2px 6px rgba(0,0,0,0.8);
+   text-shadow: 0 0 5px #00fff1,
+                0 0 20px #00fff1;
+   ;
+}

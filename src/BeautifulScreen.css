@@ -1,0 +1,24 @@
+.screen {
+   border: 1px solid black;
+   background-color: whitesmoke;
+   border-radius: 10px;
+}
+
+.beautifulScreen {
+   height: 80%;
+   padding: 4% 0 0 0;
+   max-width: 290px;
+   overflow: hidden;
+}
+
+.tit {
+   height: 70%;
+   font-size: large;
+   color: rgba(255, 253, 240, 0.946);
+}
+
+.sous-tit {
+   height: 15%;
+   color: rgba(255, 254, 213, 0.741);
+   font-size: small;
+}
